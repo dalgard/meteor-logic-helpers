@@ -3,41 +3,32 @@ nordlys:logic-helpers 0.1.0
 
 A basic set of logic helpers for Blaze.
 
+
 ### Helpers
 
-All helpers take any number of arguments, which are iterated over and compared with the value of the previous one, until the relevant condition is no longer met, and the most recent value is returned.
+Most of the helpers take any number of arguments, which are iterated over and compared with the value of the previous one, until the relevant condition is no longer met.
 
-##### `is`
+The helpers will often return a value instead of a boolean, which can then be used directly in the template.
 
-...
+##### `is(...args)`
 
-##### `and`
+##### `and(...args)`
 
-...
+##### `or(...args)`
 
-##### `or`
+##### `tern(condition, arg1, arg2)`
 
-...
+##### `gt(...args)`
 
-##### `tern`
+##### `lt(...args)`
 
-...
+##### `in(array, ...args)`
 
-##### `gt`
-
-...
-
-##### `lt`
-
-...
-
-##### `in`
-
-...
 
 ### Use examples
 
 ...
+
 
 ### Jade
 
