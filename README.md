@@ -3,6 +3,8 @@ nordlys:logic-helpers 0.1.0
 
 A basic set of logic helpers for Blaze.
 
+https://github.com/mquandalle/meteor-jade/issues/43#issuecomment-148063371
+
 
 ### Helpers
 
