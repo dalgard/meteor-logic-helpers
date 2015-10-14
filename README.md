@@ -3,8 +3,6 @@ nordlys:logic-helpers 0.1.0
 
 A basic set of logic helpers for Blaze.
 
-https://github.com/mquandalle/meteor-jade/issues/43#issuecomment-148063371
-
 
 ### Helpers
 
@@ -29,12 +27,12 @@ The helpers will often return a value instead of a boolean, which can then be us
 
 ### Use examples
 
-...
+https://github.com/mquandalle/meteor-jade/issues/43#issuecomment-148063371
 
 
 ### Jade
 
-The helpers may be advantageously used with the `dalgard:jade` package, which allows parenthesis syntax:
+The helpers may be advantageously used with the `dalgard:jade` package, which allows this parenthesis syntax:
 
 ```jade
 if is(name 'Paul')
