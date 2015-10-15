@@ -8,21 +8,21 @@ A basic set of logic helpers for Blaze.
 
 Most of the helpers take any number of arguments, which are iterated over and compared with the value of the previous one, until the relevant condition is no longer met.
 
-The helpers will often return a value instead of a boolean, which can then be used directly in the template.
-
-##### `is(...args)`
+The helpers `and` and `or` return a value instead of a boolean, which can then be used directly in the template.
 
 ##### `and(...args)`
 
 ##### `or(...args)`
 
-##### `tern(condition, arg1, arg2)`
+##### `is(...args)`
 
 ##### `gt(...args)`
 
 ##### `lt(...args)`
 
 ##### `in(array, ...args)`
+
+##### `tern(condition, arg1, arg2)`
 
 
 ### Use examples
