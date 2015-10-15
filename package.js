@@ -22,14 +22,13 @@ Package.onTest(function (api) {
   api.versionsFrom("METEOR@1.2.0.2");
 
   api.use([
-    "tinytest",
     "dalgard:jade@0.5.4",
+    "tinytest"
+  ]);
+
+  api.use([
     "nordlys:logic-helpers@0.1.0"
   ], "client");
 
-  api.addFiles([
-    "tests/test.html",
-    "tests/test.jade",
-    "tests/test.js"
-  ]);
+  api.addFiles("tests/test.js", "client");
 });
