@@ -1,4 +1,4 @@
-var helpers = Package.blaze.Blaze._globalHelpers;
+var helpers = Blaze._globalHelpers;
 
 Tinytest.add("and", function (test) {
   test.equal(helpers.and());

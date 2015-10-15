@@ -27,6 +27,7 @@ Package.onTest(function (api) {
   ]);
 
   api.use([
+    "blaze",
     "nordlys:logic-helpers@0.1.0"
   ], "client");
 
