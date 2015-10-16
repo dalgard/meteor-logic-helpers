@@ -25,14 +25,14 @@ html-tools@1.0.5
 htmljs@1.0.5
 id-map@1.0.4
 jquery@1.11.4
-local-test:nordlys:logic-helpers@0.1.0
+local-test:nordlys:logic-helpers@0.1.0_1
 logging@1.0.8
 meteor@1.1.9
 minifiers@1.1.7
 minimongo@1.0.10
 mongo@1.1.2
 mongo-id@1.0.1
-nordlys:logic-helpers@0.1.0
+nordlys:logic-helpers@0.1.0_1
 npm-mongo@1.4.39_1
 observe-sequence@1.0.7
 ordered-dict@1.0.4

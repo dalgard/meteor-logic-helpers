@@ -10,17 +10,17 @@ Most of the helpers take any number of arguments, which are iterated over and co
 
 The helpers `and` and `or` return a value instead of a boolean, which can then be used directly in the template.
 
-##### `and(...args)`
+#### `and(...args)`
 
-Return the last truthy argument.
+Returns the last truthy argument.
 
-##### `or(...args)`
+#### `or(...args)`
 
-Return the first truthy argument.
+Returns the first truthy argument.
 
-##### `is(...args)`
+#### `is(...args)`
 
-Return whether all arguments are strictly equal.
+Returns whether all arguments are strictly equal.
 
 The is helper can be used to mimic a `switch` statement:
 
@@ -34,26 +34,26 @@ The is helper can be used to mimic a `switch` statement:
 {{/if}}{{/if}}
 ```
 
-##### `gt(...args)`
+#### `gt(...args)`
 
-Return whether each argument is greater than the previous.
+Returns whether each argument is greater than the previous.
 
-##### `lt(...args)`
+#### `lt(...args)`
 
-Return whether each argument is less than the previous.
+Returns whether each argument is less than the previous.
 
-##### `in(array, ...args)`
+#### `in(array, ...args)`
 
-Return whether the array contains all the following arguments.
+Returns whether the array contains all the following arguments.
 
-##### `tern(condition, arg1, arg2)`
+#### `tern(condition, arg1, arg2)`
 
-Return the second or third argument, depending on the first.
+Returns the second or third argument, depending on the first.
 
 
 ### Jade
 
-The helpers may be advantageously used with the `dalgard:jade` package, which allows this parenthesis syntax:
+The helpers may be advantageously used with the [`dalgard:jade`](https://github.com/dalgard/meteor-jade) package, which allows this parenthesis syntax:
 
 ```jade
 if is(name 'Paul')
