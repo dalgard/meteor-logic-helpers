@@ -22,6 +22,18 @@ Return the first truthy argument.
 
 Return whether all arguments are strictly equal.
 
+The is helper can be used to mimic a `switch` statement:
+
+```html
+{{#if is status 'ok'}}
+  <span>OK</span>
+{{else}}{{#if is status 'maybe'}}
+  <span>Maybe</span>
+{{else}}
+  <span>Nope</span>
+{{/if}}{{/if}}
+```
+
 ##### `gt(...args)`
 
 Return whether each argument is greater than the previous.
@@ -37,11 +49,6 @@ Return whether the array contains all the following arguments.
 ##### `tern(condition, arg1, arg2)`
 
 Return the second or third argument, depending on the first.
-
-
-### Use examples
-
-https://github.com/mquandalle/meteor-jade/issues/43#issuecomment-148063371
 
 
 ### Jade
