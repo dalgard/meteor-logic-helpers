@@ -12,17 +12,31 @@ The helpers `and` and `or` return a value instead of a boolean, which can then b
 
 ##### `and(...args)`
 
+Return the last truthy argument.
+
 ##### `or(...args)`
+
+Return the first truthy argument.
 
 ##### `is(...args)`
 
+Return whether all arguments are strictly equal.
+
 ##### `gt(...args)`
+
+Return whether each argument is greater than the previous.
 
 ##### `lt(...args)`
 
+Return whether each argument is less than the previous.
+
 ##### `in(array, ...args)`
 
+Return whether the array contains all the following arguments.
+
 ##### `tern(condition, arg1, arg2)`
+
+Return the second or third argument, depending on the first.
 
 
 ### Use examples
