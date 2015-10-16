@@ -1,6 +1,6 @@
 Package.describe({
   name: "nordlys:logic-helpers",
-  version: "0.1.0",
+  version: "0.1.0_1",
   summary: "A basic set of logic helpers for Blaze",
   git: "https://github.com/nordlysio/meteor-logic-helpers",
   documentation: "README.md"
@@ -28,7 +28,7 @@ Package.onTest(function (api) {
 
   api.use([
     "blaze",
-    "nordlys:logic-helpers@0.1.0"
+    "nordlys:logic-helpers@0.1.0_1"
   ], "client");
 
   api.addFiles("tests/test.js", "client");
