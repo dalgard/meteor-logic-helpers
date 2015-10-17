@@ -22,7 +22,7 @@ Returns the first truthy argument.
 
 Returns whether all arguments are strictly equal.
 
-The is helper can be used to mimic a `switch` statement:
+The `is` helper can be used to mimic a `switch` statement:
 
 ```html
 {{#if is status 'ok'}}

@@ -2,7 +2,7 @@ Package.describe({
   name: "nordlys:logic-helpers",
   version: "0.1.0_1",
   summary: "A basic set of logic helpers for Blaze",
-  git: "https://github.com/nordlysio/meteor-logic-helpers",
+  git: "https://github.com/nordlys/meteor-logic-helpers",
   documentation: "README.md"
 });
 
