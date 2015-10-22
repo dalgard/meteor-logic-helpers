@@ -1,4 +1,4 @@
-nordlys:logic-helpers 0.1.0
+dalgard:logic-helpers 0.1.0
 ===========================
 
 A basic set of logic helpers for Blaze.

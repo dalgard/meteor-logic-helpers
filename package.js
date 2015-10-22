@@ -1,8 +1,8 @@
 Package.describe({
-  name: "nordlys:logic-helpers",
-  version: "0.1.0_1",
+  name: "dalgard:logic-helpers",
+  version: "0.1.0",
   summary: "A basic set of logic helpers for Blaze",
-  git: "https://github.com/nordlys/meteor-logic-helpers",
+  git: "https://github.com/dalgard/meteor-logic-helpers",
   documentation: "README.md"
 });
 
@@ -28,7 +28,7 @@ Package.onTest(function (api) {
 
   api.use([
     "blaze",
-    "nordlys:logic-helpers@0.1.0_1"
+    "dalgard:logic-helpers@0.1.0"
   ], "client");
 
   api.addFiles("tests/test.js", "client");
