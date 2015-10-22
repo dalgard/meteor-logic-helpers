@@ -1,4 +1,4 @@
-nordlys:logic-helpers 0.1.0
+dalgard:logic-helpers 0.1.0
 ===========================
 
 A basic set of logic helpers for Blaze.
@@ -22,7 +22,7 @@ Returns the first truthy argument.
 
 Returns whether all arguments are strictly equal.
 
-The is helper can be used to mimic a `switch` statement:
+The `is` helper can be used to mimic a `switch` statement:
 
 ```html
 {{#if is status 'ok'}}
