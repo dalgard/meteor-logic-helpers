@@ -1,4 +1,4 @@
-dalgard:logic-helpers 0.1.0
+dalgard:logic-helpers 0.1.1
 ===========================
 
 A basic set of logic helpers for Blaze.
@@ -36,11 +36,11 @@ The `is` helper can be used to mimic a `switch` statement:
 
 #### `gt(...args)`
 
-Returns whether each argument is greater than the previous.
+Returns whether each argument is greater than the next.
 
 #### `lt(...args)`
 
-Returns whether each argument is less than the previous.
+Returns whether each argument is less than the next.
 
 #### `in(array, ...args)`
 
