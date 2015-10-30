@@ -34,19 +34,19 @@ Tinytest.add("is", function (test) {
 Tinytest.add("gt", function (test) {
   test.equal(helpers.gt(), true);
   test.equal(helpers.gt(1), true);
-  test.equal(helpers.gt(1, 2), true);
-  test.equal(helpers.gt(2, 1), false);
-  test.equal(helpers.gt(1, 2, 3), true);
-  test.equal(helpers.gt(1, 3, 2), false);
+  test.equal(helpers.gt(2, 1), true);
+  test.equal(helpers.gt(1, 2), false);
+  test.equal(helpers.gt(3, 2, 1), true);
+  test.equal(helpers.gt(2, 1, 3), false);
 });
 
 Tinytest.add("lt", function (test) {
   test.equal(helpers.lt(), true);
   test.equal(helpers.lt(1), true);
-  test.equal(helpers.lt(2, 1), true);
-  test.equal(helpers.lt(1, 2), false);
-  test.equal(helpers.lt(3, 2, 1), true);
-  test.equal(helpers.lt(2, 1, 3), false);
+  test.equal(helpers.lt(1, 2), true);
+  test.equal(helpers.lt(2, 1), false);
+  test.equal(helpers.lt(1, 2, 3), true);
+  test.equal(helpers.lt(1, 3, 2), false);
 });
 
 Tinytest.add("in", function (test) {
